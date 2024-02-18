@@ -1,2 +1,523 @@
 
 
+#A1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #A1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#A2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #A2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#A3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #A3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#A4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #A4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#B1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #B1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#B2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #B2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#B3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #B3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#B4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #B4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#C1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #C1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#C2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #C2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#C3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #C3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#C4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #C4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#D1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #D1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#D2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #D2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#D3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #D3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#D4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #D4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#E1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #E1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#E2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #E2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#E3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #E3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#E4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #E4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#F1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #F1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#F2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #F2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#F3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #F3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#F4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #F4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#G1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #G1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#G2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #G2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#G3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #G3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#G4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #G4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#H1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #H1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#H2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #H2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#H3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #H3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#H4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #H4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#I1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #I1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#I2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #I2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#I3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #I3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#I4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #I4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#J1{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #J1.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#J2{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #J2.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#J3{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #J3.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+#J4{
+    
+    background-color: rgb(231, 228, 228) /* Default color */;
+    color: Black;
+    border: none;
+    cursor: pointer;
+  }
+  /* Style for disabled button */
+  #J4.disabled {
+    background-color: #1DD100;
+    color:white;
+    cursor: not-allowed;
+  }
+
