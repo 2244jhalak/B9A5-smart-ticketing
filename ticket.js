@@ -1,17 +1,100 @@
+
 function calculate(amount){
    let total=document.getElementById('total');
+   let grandTotal=document.getElementById('grand-total')
+   
+   let discount=document.getElementById('discount');
+   let discountText=discount.innerText;
+   let discountContainer=document.getElementById('discount-container');
+   
    let totalText=parseInt(total.innerText);
    let sum=totalText+parseInt(amount);
    total.innerText=sum;
+   grandTotal.innerText=sum;
+   
+   
    const coupon=document.getElementById("coupon-field");
+  
    const applyBtn=document.getElementById('apply')
    if(sum===2200){
-    applyBtn.removeAttribute('disabled',true)
+    
+
+    coupon.addEventListener('keyup',function(event){
+        let code=event.target.value;
+        if(code==='NEW15'){
+            discountContainer.classList.remove('hidden');
+           
+         
+            apply(sum,15);
+            
+            applyBtn.removeAttribute('disabled',true);
+        }
+        else if(code==='Couple 20'){
+            discountContainer.classList.remove('hidden');
+            
+            
+            apply(sum,20);
+           
+            applyBtn.removeAttribute('disabled',true);
+
+        }
+        else{
+            
+            discountContainer.classList.add('hidden');
+            discount.innerText='';
+            applyBtn.setAttribute('disabled',true); 
+        }
+    })
+    
 
    }
+   
+  
+   
+    
+   
+   
 }
+function apply(sum,num){
+    console.log(sum,num)
+    
+    
+    let discount=document.getElementById('discount');
+    let discountText=discount.innerText;
+    let discountValue=(sum * num)/100;
+    discount.innerText=discountValue;
+   
+  
+    
+
+}
+document.getElementById('apply').addEventListener('click',function(){
+    let discount=document.getElementById('discount');
+    let discountText=discount.innerText;
+    let grandTotal=document.getElementById('grand-total');
+    let grandTotalValue=grandTotal.innerText
+     
+    let grandValue=grandTotalValue-discountText;
+    grandTotal.innerText=grandValue;
+    const applyBtn=document.getElementById('apply');
+    applyBtn.setAttribute('disabled',true);
+})
+document.getElementById('number').addEventListener('keyup',function(event){
+    const number=event.target.value;
+    const allBtn=document.getElementById('all');
+    if(number){
+        allBtn.removeAttribute('disabled',true);
+
+    }
+})
+
+
+
+
 document.getElementById("A1").addEventListener('click', function () {
     const mainContainer = document.getElementById("main-container");
+    const coupon=document.getElementById("coupon-field");
+    console.log(coupon.value)
 
     // where to be added
 
