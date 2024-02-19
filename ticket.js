@@ -157,7 +157,7 @@ document.getElementById("A1").addEventListener('click', function () {
    
     
     li1.innerText = "A1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
     
 
     li3.innerText=550;
@@ -225,7 +225,7 @@ document.getElementById("A2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "A2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -291,7 +291,7 @@ document.getElementById("A3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "A3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -357,7 +357,7 @@ document.getElementById("A4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "A4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -423,7 +423,7 @@ document.getElementById("B1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "B1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -489,7 +489,7 @@ document.getElementById("B2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "B2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -555,7 +555,7 @@ document.getElementById("B3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "B3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -621,7 +621,7 @@ document.getElementById("B4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "B4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -687,7 +687,7 @@ document.getElementById("C1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "C1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -753,7 +753,7 @@ document.getElementById("C2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "C2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -819,7 +819,7 @@ document.getElementById("C3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "C3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -885,7 +885,7 @@ document.getElementById("C4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "C4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -948,7 +948,7 @@ document.getElementById("D1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "D1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1011,7 +1011,7 @@ document.getElementById("D2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "D2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1074,7 +1074,7 @@ document.getElementById("D3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "D3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1137,7 +1137,7 @@ document.getElementById("D4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "D4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1200,7 +1200,7 @@ document.getElementById("E1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "E1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1263,7 +1263,7 @@ document.getElementById("E2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "E2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1326,7 +1326,7 @@ document.getElementById("E3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "E3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1389,7 +1389,7 @@ document.getElementById("E4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "E4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1452,7 +1452,7 @@ document.getElementById("F1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "F1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1515,7 +1515,7 @@ document.getElementById("F2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "F2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1578,7 +1578,7 @@ document.getElementById("F3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "F3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1641,7 +1641,7 @@ document.getElementById("F4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "F4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1704,7 +1704,7 @@ document.getElementById("G1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "G1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1767,7 +1767,7 @@ document.getElementById("G2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "G2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1830,7 +1830,7 @@ document.getElementById("G3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "G3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1893,7 +1893,7 @@ document.getElementById("G4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "G4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -1956,7 +1956,7 @@ document.getElementById("H1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "H1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2019,7 +2019,7 @@ document.getElementById("H2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "H2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2083,7 +2083,7 @@ document.getElementById("H3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "H3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2146,7 +2146,7 @@ document.getElementById("H4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "H4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2209,7 +2209,7 @@ document.getElementById("I1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "I1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2272,7 +2272,7 @@ document.getElementById("I2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "I2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2335,7 +2335,7 @@ document.getElementById("I3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "I3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2398,7 +2398,7 @@ document.getElementById("I4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "I4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2461,7 +2461,7 @@ document.getElementById("J1").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "J1";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2524,7 +2524,7 @@ document.getElementById("J2").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "J2";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2587,7 +2587,7 @@ document.getElementById("J3").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "J3";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
@@ -2650,7 +2650,7 @@ document.getElementById("J4").addEventListener('click', function () {
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
     li1.innerText = "J4";
-    li2.innerText = "economy";
+    li2.innerText = "Economy";
 
 
     li3.innerText=550;
