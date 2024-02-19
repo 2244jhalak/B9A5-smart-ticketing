@@ -103,11 +103,19 @@ document.getElementById("A1").addEventListener('click', function () {
     arr.push('A1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -172,11 +180,19 @@ document.getElementById("A2").addEventListener('click', function () {
     arr.push('A2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -230,11 +246,19 @@ document.getElementById("A3").addEventListener('click', function () {
     arr.push('A3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -288,11 +312,19 @@ document.getElementById("A4").addEventListener('click', function () {
     arr.push('A4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -346,11 +378,19 @@ document.getElementById("B1").addEventListener('click', function () {
     arr.push('B1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -404,11 +444,19 @@ document.getElementById("B2").addEventListener('click', function () {
     arr.push('B2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -462,11 +510,19 @@ document.getElementById("B3").addEventListener('click', function () {
     arr.push('B3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -520,11 +576,19 @@ document.getElementById("B4").addEventListener('click', function () {
     arr.push('B4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -578,11 +642,19 @@ document.getElementById("C1").addEventListener('click', function () {
     arr.push('C1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -636,11 +708,19 @@ document.getElementById("C2").addEventListener('click', function () {
     arr.push('C2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -694,11 +774,19 @@ document.getElementById("C3").addEventListener('click', function () {
     arr.push('C3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -752,11 +840,19 @@ document.getElementById("C4").addEventListener('click', function () {
     arr.push('C4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -807,11 +903,19 @@ document.getElementById("D1").addEventListener('click', function () {
     arr.push('D1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -862,11 +966,19 @@ document.getElementById("D2").addEventListener('click', function () {
     arr.push('D2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -917,11 +1029,19 @@ document.getElementById("D3").addEventListener('click', function () {
     arr.push('D3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -972,11 +1092,19 @@ document.getElementById("D4").addEventListener('click', function () {
     arr.push('D4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1027,11 +1155,19 @@ document.getElementById("E1").addEventListener('click', function () {
     arr.push('E1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1082,11 +1218,19 @@ document.getElementById("E2").addEventListener('click', function () {
     arr.push('E2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1137,11 +1281,19 @@ document.getElementById("E3").addEventListener('click', function () {
     arr.push('E3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1192,11 +1344,19 @@ document.getElementById("E4").addEventListener('click', function () {
     arr.push('E4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1247,11 +1407,19 @@ document.getElementById("F1").addEventListener('click', function () {
     arr.push('F1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1302,11 +1470,19 @@ document.getElementById("F2").addEventListener('click', function () {
     arr.push('F2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1357,11 +1533,19 @@ document.getElementById("F3").addEventListener('click', function () {
     arr.push('F3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1412,11 +1596,19 @@ document.getElementById("F4").addEventListener('click', function () {
     arr.push('F4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1467,11 +1659,19 @@ document.getElementById("G1").addEventListener('click', function () {
     arr.push('G1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1522,11 +1722,19 @@ document.getElementById("G2").addEventListener('click', function () {
     arr.push('G2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1577,11 +1785,19 @@ document.getElementById("G3").addEventListener('click', function () {
     arr.push('G3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1632,11 +1848,19 @@ document.getElementById("G4").addEventListener('click', function () {
     arr.push('G4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1687,11 +1911,19 @@ document.getElementById("H1").addEventListener('click', function () {
     arr.push('H1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1742,11 +1974,19 @@ document.getElementById("H2").addEventListener('click', function () {
     arr.push('H2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1798,11 +2038,19 @@ document.getElementById("H3").addEventListener('click', function () {
     arr.push('H3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1853,11 +2101,19 @@ document.getElementById("H4").addEventListener('click', function () {
     arr.push('H4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1908,11 +2164,19 @@ document.getElementById("I1").addEventListener('click', function () {
     arr.push('I1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -1963,11 +2227,19 @@ document.getElementById("I2").addEventListener('click', function () {
     arr.push('I2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -2018,11 +2290,19 @@ document.getElementById("I3").addEventListener('click', function () {
     arr.push('I3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -2073,11 +2353,19 @@ document.getElementById("I4").addEventListener('click', function () {
     arr.push('I4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -2128,11 +2416,19 @@ document.getElementById("J1").addEventListener('click', function () {
     arr.push('J1');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -2183,11 +2479,19 @@ document.getElementById("J2").addEventListener('click', function () {
     arr.push('J2');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -2238,11 +2542,19 @@ document.getElementById("J3").addEventListener('click', function () {
     arr.push('J3');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -2293,11 +2605,19 @@ document.getElementById("J4").addEventListener('click', function () {
     arr.push('J4');
     
     let seatText=arr.length;
-    seat.innerText=seatText;
+    if(seatText<=4){
+        seat.innerText=seatText;
+
+    }
+    
     let totalSeat=document.getElementById('total-seat');
     let totalSeatCount=totalSeat.innerText;
-    let presentSeat=totalSeatCount-seatText;
-    totalSeat.innerText=presentSeat;
+    let presentSeat=totalSeatCount-1;
+    
+    if(presentSeat>=36){
+        totalSeat.innerText=presentSeat;
+    }
+    
     seat.style.backgroundColor='#1DD100';
     seat.style.padding='1px 8px';
     seat.style.color='white';
@@ -2341,4 +2661,10 @@ document.getElementById("J4").addEventListener('click', function () {
 
 
 })
+function applyAll(){
+    const page1=document.getElementById('page1');
+    const success=document.getElementById('success');
+    page1.classList.add('hidden');
+    success.classList.remove('hidden');
+}
 
