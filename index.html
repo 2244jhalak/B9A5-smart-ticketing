@@ -25,7 +25,7 @@
                 We are working hard to find the best service and deals for you. </h2>
               <p>Shortly you will find a confirmation in your email.</p>
               <div class="card-actions">
-                <button class="btn bg-[#27AE60] text-white px-16 py-4">Continue</button>
+                <button class="btn bg-[#27AE60] text-white lg:px-16 py-4">Continue</button>
               </div>
             </div>
           </div>
@@ -65,7 +65,8 @@
                       </ul>
                     </div>
                     <div class="navbar-end">
-                      <a class="btn border-[#1DD100] text-[#1DD100] px-6 text-xl">Bus
+                      <a class="btn border-[#1DD100] text-[#1DD100] lg:px-6 text-xl flex items-center">
+                        <p>Bus</p>
                         <img src="images/bus-icon.png" alt="">
                       </a>
                     </div>
@@ -81,7 +82,7 @@
                         <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with</h1>
                         <h1 class="mb-5 text-5xl font-bold text-[#1DD100]">Rhythm Travel</h1>
                         <p class="mb-5">Welcome to Rhythm Travel, where every journey is an experience! <br>Providing reliable and comfortable transportation solutions, we're<br> your trusted partner for seamless travel adventures</p>
-                        <button class="btn bg-[#1DD100] border-0 text-xl font-bold px-8">Buy Tickets</button>
+                        <button onclick="scrollToSection('bio')" class="btn bg-[#1DD100] border-0 text-xl font-bold px-8">Buy Tickets</button>
                       </div>
                     </div>
                 
@@ -95,9 +96,9 @@
         <!-- Coupon section start -->
         <section class="space-y-6">
             <h2 class="text-center font-bold text-4xl">Best offers for you</h2>
-            <div class="flex gap-6">
-                <div class="flex w-1/2 bg-yellow-400 rounded-xl">
-                    <div class="px-10 pt-8 w-3/5 space-y-3">
+            <div class="flex lg:gap-6 gap-y-4 lg:flex-row flex-col">
+                <div class="flex lg:w-1/2 w-full bg-yellow-400 rounded-xl">
+                    <div class="px-10 pt-8 lg:w-3/5 w-1/2 lg:space-y-3">
                         <h1 class="font-extrabold text-5xl">15% OFF</h1>
 
                         <h5 class="font-semibold">on your next purchase</h5>
@@ -105,17 +106,17 @@
                         <p>use by January 2024</p>
 
                     </div>
-                    <img class="h-[200px]" src="images/cupon-devider.png" alt="">
-                    <div class="text-center w-2/5 pt-16 space-y-3">
-                        <h1 class="font-bold text-4xl">NEW15</h1>
+                    <img class="lg:h-[200px]" src="images/cupon-devider.png" alt="">
+                    <div class="text-center lg:w-2/5 w-1/2 pt-16 space-y-3">
+                        <h1 class="font-bold lg:text-4xl text-xl">NEW15</h1>
 
                         <p>Coupon Code</p>
 
                     </div>
 
                 </div>
-                <div class="flex w-1/2 bg-pink-400 rounded-xl">
-                    <div class="px-10 pt-8 w-3/5 space-y-3">
+                <div class="flex lg:w-1/2 w-full bg-pink-400 rounded-xl">
+                    <div class="px-10 pt-8 lg:w-3/5 w-1/2 lg:space-y-3">
                         <h1 class="font-extrabold text-5xl">20% OFF</h1>
 
                         <h5 class="font-semibold">on your next purchase</h5>
@@ -123,9 +124,9 @@
                         <p>use by January 2024</p>
 
                     </div>
-                    <img class="h-[200px]" src="images/cupon-devider.png" alt="">
-                    <div class="text-center w-2/5 pt-16 space-y-3">
-                        <h1 class="font-bold text-4xl">Couple 20</h1>
+                    <img class="lg:h-[200px]" src="images/cupon-devider.png" alt="">
+                    <div class="text-center lg:w-2/5 w-1/2 pt-16 space-y-3">
+                        <h1 class="font-bold lg:text-4xl text-xl">Couple 20</h1>
 
                         <p>Coupon Code</p>
 
@@ -143,19 +144,18 @@
         <!-- Coupon section end -->
 
         <!-- Timing and amount section start-->
-        <section>
+        <section id="bio">
         <div class="py-5 text-center space-y-3">
             <h2 class="text-4xl font-bold">Rhythm Travel</h2>
-            <p class="text-gray-600">Yes, you can run unit tests and view the results directly within the app. The integrated <br>
-            testing features allow for a streamlined .</p>
+            <p class="text-gray-600">Welcome to Rhythm Travel, where every journey is an experience! <br>Providing reliable and comfortable transportation solutions, we're<br> your trusted partner for seamless travel adventures</p>
 
         </div>
         
-        <div class="flex flex-col lg:flex-row rounded-xl bg-[white] ">
+        <div class="flex flex-col lg:flex-row rounded-xl bg-[white]">
             
-            <div class="w-3/4 pt-20 px-3">
+            <div class="lg:w-3/4 w-full pt-20 px-3">
                 <div class="space-y-3">
-                    <div class="flex justify-between">
+                    <div class="flex lg:flex-row flex-col justify-between">
                         <div class="flex">
                             <img src="images/bus-logo.png" alt="">
                             <div class="pl-5">
@@ -171,7 +171,7 @@
 
 
                     </div>
-                    <div class="p-7 space-y-3 bg-[#F7F8F8] rounded-xl">
+                    <div class="lg:p-7 p-3 space-y-3 bg-[#F7F8F8] rounded-xl">
                         <div class="flex justify-between">
                             <h4 class="text-gray-600">Route</h4>
                             <h4>Dhaka-Sylhet</h4>
@@ -184,10 +184,10 @@
 
                         </div>
                         <hr class="border-dashed">
-                        <div class="flex justify-between">
-                            <button class="btn w-1/4">Boarding Point - Laxmipur</button>
-                            <button class="btn w-1/4">Dropping Point - Bogura</button>
-                            <button class="btn w-1/4">Est. Time - 11 Hour</button>
+                        <div class="flex justify-between lg:flex-row flex-col">
+                            <button class="btn lg:w-1/4 w-full">Boarding Point - Laxmipur</button>
+                            <button class="btn lg:w-1/4 w-full">Dropping Point - Bogura</button>
+                            <button class="btn lg:w-1/4 w-full">Est. Time - 11 Hour</button>
 
                         </div>
 
@@ -196,7 +196,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/4 flex">
+            <div class="lg:w-1/4 flex ">
                 <div class="flex-1">
                     <img src="images/info-devider.png" alt="">
                 </div>
@@ -215,8 +215,8 @@
         <!-- Timing and amount section end-->
         <!-- Select your seat section start -->
         <section class="bg-[#F7F8F8] max-h-full">
-        <div class="flex bg-[white] rounded-xl mt-4">
-            <div class="w-3/5 p-4 space-y-4">
+        <div class="flex lg:flex-row flex-col bg-[white] rounded-xl mt-4">
+            <div class="lg:w-3/5 p-4 space-y-4">
                 <h3 class="text-2xl font-semibold">Select your seat</h3>
                 <hr class="border-dashed">
                 <div class="flex justify-between">
@@ -235,170 +235,170 @@
                 <div class="text-right">
                     <button class="btn"><img src="images/wheel.png" alt=""></button>
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>A</p>
                   
-                        <button id="A1" class="btn px-16">A1</button>
-                        <button id="A2" class="btn px-16">A2</button>
+                        <button id="A1" class="btn lg:px-16">A1</button>
+                        <button id="A2" class="btn lg:px-16">A2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="A3" class="btn px-16">A3</button>
-                        <button id="A4" class="btn px-16">A4</button>
+                        <button id="A3" class="btn lg:px-16">A3</button>
+                        <button id="A4" class="btn lg:px-16">A4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>B</p>
                   
-                        <button id="B1" class="btn px-16">B1</button>
-                        <button id="B2" class="btn px-16">B2</button>
+                        <button id="B1" class="btn lg:px-16">B1</button>
+                        <button id="B2" class="btn lg:px-16">B2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="B3" class="btn px-16">B3</button>
-                        <button id="B4" class="btn px-16">B4</button>
+                        <button id="B3" class="btn lg:px-16">B3</button>
+                        <button id="B4" class="btn lg:px-16">B4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>C</p>
                   
-                        <button id="C1" class="btn px-16">C1</button>
-                        <button id="C2" class="btn px-16">C2</button>
+                        <button id="C1" class="btn lg:px-16">C1</button>
+                        <button id="C2" class="btn lg:px-16">C2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="C3" class="btn px-16">C3</button>
-                        <button id="C4" class="btn px-16">C4</button>
+                        <button id="C3" class="btn lg:px-16">C3</button>
+                        <button id="C4" class="btn lg:px-16">C4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>D</p>
                   
-                        <button id="D1" class="btn px-16">D1</button>
-                        <button id="D2" class="btn px-16">D2</button>
+                        <button id="D1" class="btn lg:px-16">D1</button>
+                        <button id="D2" class="btn lg:px-16">D2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="D3" class="btn px-16">D3</button>
-                        <button id="D4" class="btn px-16">D4</button>
+                        <button id="D3" class="btn lg:px-16">D3</button>
+                        <button id="D4" class="btn lg:px-16">D4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>E</p>
                   
-                        <button id="E1" class="btn px-16">E1</button>
-                        <button id="E2" class="btn px-16">E2</button>
+                        <button id="E1" class="btn lg:px-16">E1</button>
+                        <button id="E2" class="btn lg:px-16">E2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="E3" class="btn px-16">E3</button>
-                        <button id="E4" class="btn px-16">E4</button>
+                        <button id="E3" class="btn lg:px-16">E3</button>
+                        <button id="E4" class="btn lg:px-16">E4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>F</p>
                   
-                        <button id="F1" class="btn px-16">F1</button>
-                        <button id="F2" class="btn px-16">F2</button>
+                        <button id="F1" class="btn lg:px-16">F1</button>
+                        <button id="F2" class="btn lg:px-16">F2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="F3" class="btn px-16">F3</button>
-                        <button id="F4" class="btn px-16">F4</button>
+                        <button id="F3" class="btn lg:px-16">F3</button>
+                        <button id="F4" class="btn lg:px-16">F4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>G</p>
                   
-                        <button id="G1" class="btn px-16">G1</button>
-                        <button id="G2" class="btn px-16">G2</button>
+                        <button id="G1" class="btn lg:px-16">G1</button>
+                        <button id="G2" class="btn lg:px-16">G2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="G3" class="btn px-16">G3</button>
-                        <button id="G4" class="btn px-16">G4</button>
+                        <button id="G3" class="btn lg:px-16">G3</button>
+                        <button id="G4" class="btn lg:px-16">G4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>H</p>
                   
-                        <button id="H1" class="btn px-16">H1</button>
-                        <button id="H2" class="btn px-16">H2</button>
+                        <button id="H1" class="btn lg:px-16">H1</button>
+                        <button id="H2" class="btn lg:px-16">H2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="H3" class="btn px-16">H3</button>
-                        <button id="H4" class="btn px-16">H4</button>
+                        <button id="H3" class="btn lg:px-16">H3</button>
+                        <button id="H4" class="btn lg:px-16">H4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>I</p>
                   
-                        <button id="I1" class="btn px-16">I1</button>
-                        <button id="I2" class="btn px-16">I2</button>
+                        <button id="I1" class="btn lg:px-16">I1</button>
+                        <button id="I2" class="btn lg:px-16">I2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="I3" class="btn px-16">I3</button>
-                        <button id="I4" class="btn px-16">I4</button>
+                        <button id="I3" class="btn lg:px-16">I3</button>
+                        <button id="I4" class="btn lg:px-16">I4</button>
 
                     </div>
                     
                     
                    
                 </div>
-                <div class="grid grid-cols-2 items-center gap-24 py-2">
+                <div class="grid grid-cols-2 items-center lg:gap-24 gap-10 py-2">
                     <div class="flex items-center w-1/2 space-x-6">
                         <p>J</p>
                   
-                        <button id="J1" class="btn px-16">J1</button>
-                        <button id="J2" class="btn px-16">J2</button>
+                        <button id="J1" class="btn lg:px-16">J1</button>
+                        <button id="J2" class="btn lg:px-16">J2</button>
 
                     </div>
                     <div class="w-1/2 flex space-x-6">
-                        <button id="J3" class="btn px-16">J3</button>
-                        <button id="J4" class="btn px-16">J4</button>
+                        <button id="J3" class="btn lg:px-16">J3</button>
+                        <button id="J4" class="btn lg:px-16">J4</button>
 
                     </div>
                     
@@ -407,8 +407,8 @@
                 </div>
 
             </div>
-            <img class="py-6 h-[1000px]" src="images/Line 1.png" alt="">
-            <div class="w-2/5 px-16 py-4 space-y-6">
+            <img class="py-6 lg:h-[1000px] h-[20px]" src="images/Line 1.png" alt="">
+            <div class="lg:w-2/5 lg:px-16 py-4 space-y-6">
                 
                     
                     <h3 class="text-2xl font-semibold">Select your seat</h3>
@@ -431,8 +431,8 @@
                             <p>Discount</p>
                             <p>BDT <span id="discount">0</span></p>
                         </div>
-                        <div class="flex items-center rounded-xl bg-white p-1">
-                            <input id="coupon-field" type="text" placeholder="Type here" class="input w-3/4" />
+                        <div id="input-hide" class="flex items-center rounded-xl bg-white p-1">
+                            <input id="coupon-field" type="text" placeholder="Type here" class="input w-3/4" disabled/>
                             <button id="apply" class="btn bg-[#1DD100] text-white px-5" disabled>Apply</button>
                         </div>
                         <div class="flex justify-between font-semibold">

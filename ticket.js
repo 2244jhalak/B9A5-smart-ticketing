@@ -1,3 +1,10 @@
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  
 let arr=[];
 function calculate(amount){
    let total=document.getElementById('total');
@@ -17,12 +24,14 @@ function calculate(amount){
   
    const applyBtn=document.getElementById('apply')
    if(sum===2200){
+    coupon.removeAttribute('disabled',true);
+    
     
 
-    coupon.addEventListener('keyup',function(event){
+    coupon.addEventListener('keydown',function(event){
         let code=event.target.value;
         if(code==='NEW15'){
-            discountContainer.classList.remove('hidden');
+            // discountContainer.classList.remove('hidden');
            
          
             apply(sum,15);
@@ -30,7 +39,7 @@ function calculate(amount){
             applyBtn.removeAttribute('disabled',true);
         }
         else if(code==='Couple 20'){
-            discountContainer.classList.remove('hidden');
+            // discountContainer.classList.remove('hidden');
             
             
             apply(sum,20);
@@ -39,10 +48,13 @@ function calculate(amount){
 
         }
         else{
+           
+            
             
             discountContainer.classList.add('hidden');
             discount.innerText='';
             applyBtn.setAttribute('disabled',true); 
+            
         }
     })
     
@@ -70,6 +82,8 @@ function apply(sum,num){
 }
 document.getElementById('apply').addEventListener('click',function(){
     let discount=document.getElementById('discount');
+    let discountContainer=document.getElementById('discount-container');
+    discountContainer.classList.remove('hidden')
     let discountText=discount.innerText;
     let grandTotal=document.getElementById('grand-total');
     let grandTotalValue=grandTotal.innerText
@@ -77,7 +91,12 @@ document.getElementById('apply').addEventListener('click',function(){
     let grandValue=grandTotalValue-discountText;
     grandTotal.innerText=grandValue;
     const applyBtn=document.getElementById('apply');
+    
     applyBtn.setAttribute('disabled',true);
+    const inputHide=document.getElementById('input-hide');
+    inputHide.style.display='none';
+    
+    
 })
 document.getElementById('number').addEventListener('keyup',function(event){
     const number=event.target.value;
