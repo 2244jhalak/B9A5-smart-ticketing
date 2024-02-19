@@ -28,7 +28,7 @@ function calculate(amount){
     
     
 
-    coupon.addEventListener('keydown',function(event){
+    coupon.addEventListener('keyup',function(event){
         let code=event.target.value;
         if(code==='NEW15'){
             // discountContainer.classList.remove('hidden');
